@@ -1,0 +1,242 @@
+@import url('https://fonts.google.com/specimen/Muli?selection.family=M+PLUS+1p|Muli|Open+Sans');
+
+html {
+  background-color: #FFFACD;
+  background-image: url(StockSnap_Y46UG1SQ4Y.jpg);
+}
+
+body {
+  margin: 0px;
+}
+
+.page-wrapper {
+  /* display: grid; */
+  grid-column-gap: 10px;
+  letter-spacing: 1.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  font-family: 'Open sans', sans-serif;
+  height: auto;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+header h1 {
+  /* display: block; */
+  margin-left: 50px;
+  color: #004d4d;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+header h2 {
+  /* left: 150px; */
+  /* top: 100px; */
+  margin-left: 100px;
+  color: #008080;
+  font-size: 60px;
+  /* line-height: 60px; */
+  /* float: left; */
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul {
+    padding-left: 40px;
+}
+ul li {
+  list-style: none;
+}
+
+ul li::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image: url('StockSnap_Y46UG1SQ4Y.png');
+  background-size: cover;
+  background-position: center;
+  left: 20px;
+  transform: translateY(50%);
+  }
+ul li::after{
+
+}
+ul li .designer-name {
+  font-style: italic;
+  color: #800080;
+}
+footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-style: bold;
+  background-color: rgba(0,0,0,.3);
+  opacity: 0.8;
+  border-radius: 8px 8px 8px 8px;
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  color: #003399;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #cc0000;
+}
+
+a:hover {
+  font-size: 18px;
+  color: #cc0000;
+}
+
+.intro {
+  /* display:grid; */
+  /* min-width: inherit; */
+  /* width: auto; */
+}
+
+.summary {
+  width:100%;
+  /* float: left; */
+  margin-top: 10px;
+  background-color: rgba(0,0,0,.3);
+  color: #FFFACD;
+  font-family: 'Open sans', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.preamble {
+  width: 60%;
+  background-color: #8c8c8c;
+  border: 8px solid #ccccff;
+  border-radius: 8px 56px 8px 56px;
+  color: #FFFACD;
+  text-align: justify;
+  margin-top: 10px;
+  /* float: left; */
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.explanation {
+  width: 60%;
+  border: 8px solid #ccccff;
+  background-color: #8c8c8c;
+  color: #FFFACD;
+  text-align: justify;
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  border-radius: 8px 56px 8px 56px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.participation {
+  width: 60%;
+  /* height:inherit; */
+  /* position: static; */
+  /* background-color: #ccccff; */
+  color: #003333;
+  border: 8px solid #ccccff;
+  text-align: justify;
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  border-radius: 46px 8px 46px 8px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.benefits {
+  width: 60%;
+  background-color: #8c8c8c;
+  border: 8px solid #ccccff;
+  border-radius: 8px 56px 8px 56px;
+  color: #FFFACD;
+  text-align: justify;
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.requirements {
+  width: 60%;
+  background-color: #ccccff;
+  color: #003333;
+  border: 8px solid #ccccff;
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  border-radius: 46px 8px 46px 8px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.sidebar {
+  position: fixed;
+  right: 10px;
+  top: 325px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 35%;
+  height: auto;
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  opacity: 0.8;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+.design-selection {
+  background-color: #8c8c8c;
+  border-radius: 8px 8px 8px 8px;
+  color: #FFFACD;
+  height: auto;
+  border: 8px solid #8c8c8c;
+}
+
+.design-archives {
+  background-color: #ccccff;
+  border-radius: 8px 8px 8px 8px;
+  color: #003333;
+  height: auto;
+  border: 8px solid #ccccff;
+}
+
+.zen-resources {
+  background-color: #8c8c8c;
+  border-radius: 8px 8px 8px 8px;
+  color: #FFFACD;
+  height: auto;
+  border: 8px solid #8c8c8c;
+}
